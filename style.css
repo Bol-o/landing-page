@@ -1,5 +1,7 @@
 body {
-    padding: 2px;
+    padding: 0 100px;
+    background-color: black;
+    margin: 0;
 }
 
 header, footer, .section-one {
@@ -7,12 +9,22 @@ header, footer, .section-one {
     color: white;
    
 }
+
+header {
+    
+}
 header ul {
     margin: 0;
 }
+.right-side{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .left-side, .right-side {
-    border: solid black;
+    brder: solid black;
     flex: 1 1 0;
     
 }
@@ -20,6 +32,7 @@ header ul {
 .left-top{
     font-size: 48px;
     font-weight: bolder;
+   
     
 }
 
@@ -33,14 +46,60 @@ header {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    gap: 5px;
+    gap: 15px;
+    font-weight: 100;
 }
 
 
 .section-one {
     display: flex;
-    padding: 15px;
-    border: solid black;
-    padding: 10px 150px;
+    boder: solid black;
+    padding: 80px 150px;
     flex: 1 1 0px;
+    gap: 50px;
+}
+
+.left-side button {
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    border-radius: 15%;
+    color: white;
+}
+.body-two {
+    background-color: white;
+}
+.left-middle {
+    margin: 5px 0;
+}
+.header-logo {
+    font-weight:bolder;
+    font-size: 24px;
+}
+.header-links, .left-middle{
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.section-four {
+  
+   display: flex;
+   justify-content: space-between;
+   padding: 0 15px;
+   width: 398px;
+   
+}
+.section-four ul {
+    list-style-type: none;
+
+}
+.sec-four-middle {
+    display: flex;
+    background-color: #3882f6;
+}
+
+.sec-four-middle button {
+    background-color: #3882f6;
+    border-color: white;
 }
