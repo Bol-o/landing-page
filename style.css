@@ -1,7 +1,8 @@
 body {
-    padding: 0 100px;
+    padding: 0 10px;
     background-color: black;
     margin: 0;
+    display: flex;
 }
 
 header, footer, .section-one {
@@ -68,6 +69,8 @@ header {
 }
 .body-two {
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 .left-middle {
     margin: 5px 0;
@@ -103,8 +106,11 @@ header {
   
    display: flex;
    justify-content: center;
-   align-items: center;
+   align-self: center;
    padding: 0 15px;
+   flex: 1;
+   
+   
    
    
    
@@ -113,6 +119,7 @@ header {
 .section-four-center {
 display: flex;
 justify-content: space-around;
+flex: 1;
 padding: 20px;
 background-color: #3882f6;
 
