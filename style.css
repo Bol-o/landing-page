@@ -1,8 +1,7 @@
 body {
-    padding: 0 10px;
-    background-color: black;
     margin: 0;
     display: flex;
+    flex-direction: column;
 }
 
 header, footer, .section-one {
@@ -11,8 +10,11 @@ header, footer, .section-one {
    
 }
 
-header {
-    
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
 }
 header ul {
     margin: 0;
@@ -22,49 +24,54 @@ header ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 400px;
 }
 
-.left-side, .right-side {
-    brder: solid black;
-    flex: 1 1 0;
-    
+ .right-side {
+    flex: 1.25;   
+}
+
+.left-side {
+    flex: 1;
 }
 
 .left-top{
     font-size: 48px;
-    font-weight: bolder;
-   
+    font-weight: bolder; 
     
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    padding: 10px 150px;
+    padding: 20px 150px;
+}
+.header-links{
+    display: flex;
 }
 
 .header-links ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style-type: none;
     gap: 15px;
     font-weight: 100;
+    font-size: 18px;
+    align-items: center;
 }
 
 
 .section-one {
     display: flex;
-    boder: solid black;
     padding: 80px 150px;
-    flex: 1 1 0px;
-    gap: 50px;
+    gap: 20px;
 }
 
 .left-side button {
     width: 100px;
     height: 30px;
     background-color: #3882f6;
-    border-radius: 15%;
+    border-radius: 5px;
     color: white;
 }
 .body-two {
@@ -76,8 +83,10 @@ header {
     margin: 5px 0;
 }
 .header-logo {
+    align-self: center;
     font-weight:bolder;
     font-size: 24px;
+    padding-bottom: 5px;
 }
 .header-links, .left-middle{
     font-size: 18px;
@@ -109,6 +118,7 @@ header {
    align-self: center;
    padding: 0 15px;
    flex: 1;
+   margin: 50px;
    
    
    
@@ -122,6 +132,7 @@ justify-content: space-around;
 flex: 1;
 padding: 20px;
 background-color: #3882f6;
+border-radius: 5px;
 
 }
 .section-four ul {
@@ -131,7 +142,8 @@ background-color: #3882f6;
 }
 .sec-four-middle {
     display: flex;
-    
+    color: white;
+    width: 900px;
     align-self: center;
     justify-content: space-around;
     gap: 40px;
@@ -141,8 +153,38 @@ background-color: #3882f6;
     align-self: center;
     background-color: #3882f6;
     border-color: white;
-    border-radius: 12.5%;
+    border-radius: 5px;
     height: 30px;
     width: 100px;
+    color: white;
     
+}
+.media-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+.media-objects {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.media-obj-two img, .media-obj-three img {
+    display: flex;
+    border-color: #3882f6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 12.5px;
+    width: 200px;
+    height: 200px;
+    
+
+}
+
+.media-obj-two, .media-obj-three  {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
 }
