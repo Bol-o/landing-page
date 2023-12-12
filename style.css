@@ -133,6 +133,7 @@ flex: 1;
 padding: 20px;
 background-color: #3882f6;
 border-radius: 5px;
+margin: 80px;
 
 }
 .section-four ul {
@@ -164,27 +165,37 @@ border-radius: 5px;
     font-weight: bolder;
     color: #1f2937;
     text-align: center;
+    margin: 30px;
 }
 .media-objects {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
+    text-align: center;
+    margin: 100px;
 }
 
-.media-obj-two img, .media-obj-three img {
+img, .media-obj div{
+    align-self: center;
+}
+
+.media-obj img {
     display: flex;
     border-color: #3882f6;
     border-width: 5px;
     border-style: solid;
     border-radius: 12.5px;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     
 
 }
 
-.media-obj-two, .media-obj-three  {
+.media-obj {
     display: flex;
     flex-direction: column;
     width: 200px;
+}
+
+.media-obj div {
+    width: 135px;
 }
